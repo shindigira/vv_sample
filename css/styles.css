@@ -20,6 +20,8 @@ html, body {
   padding-bottom: 56.25%;
 
   height: 100%;
+
+  color: white;
 }
 
 .navbar {
@@ -39,20 +41,42 @@ html, body {
   top: 0;
 }
 
-/*.col-center{
-  margin:0 auto;
-}
-
-}
-.container-table {
-    display: table;
-    height: 100%;
-}
-.vertical-center-row {
-    display: table-cell;
-    vertical-align: middle;
-}*/
-
 #middle {
   vertical-align: middle;
+}
+
+/*#motto h1, p{
+  padding: 0; dont use
+  margin: 0; dont use
+}*/
+
+ /* Formatting text in first section */
+#motto h1 {
+  font-size: 32px;
+  line-height: 0.6;
+}
+
+#motto p {
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* Transparent Buttons */
+.btn-transparent {
+  background: transparent;
+  color: #F2F2F2;
+  -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+  -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+  /*border: 2px solid #4992B7;*/
+  border: 2px solid white;
+
+  /* No more rounded buttons */
+  border-radius: 0px;
+}
+
+.btn-transparent:hover {
+  color: white;
+  background-color: rgba(255,255,255,0.2);
 }

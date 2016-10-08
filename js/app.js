@@ -23,3 +23,6 @@ $(document.body).scroll(function(){
 // $(window).scroll(function () {
 // console.log('hi')
 // });
+
+// Activating flowtype.js
+$('body').flowtype();
